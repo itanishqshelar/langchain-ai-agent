@@ -1,0 +1,29 @@
+{
+    // Disable inline suggestions (Copilot and others)
+    "editor.inlineSuggest.enabled": false,
+
+    // Disable quick suggestions (auto suggestions while typing)
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+
+    // Disable suggestions on trigger characters
+    "editor.suggestOnTriggerCharacters": false,
+
+    // Disable parameter hints (signature help)
+    "editor.parameterHints.enabled": false,
+
+    // Prevent accepting suggestions on Enter key
+    "editor.acceptSuggestionOnEnter": "on",
+
+    // Disable suggestion preview/selection on commit characters
+    "editor.acceptSuggestionOnCommitCharacter": false,
+
+    // Disable suggestion preselection
+    "editor.suggestSelection": "first",
+
+    // Disable suggestion while typing inline completions (experimental)
+    "editor.inlineCompletions.enabled": false
+}
