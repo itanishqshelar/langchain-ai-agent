@@ -25,5 +25,6 @@
     "editor.suggestSelection": "first",
 
     // Disable suggestion while typing inline completions (experimental)
-    "editor.inlineCompletions.enabled": false
+    "editor.inlineCompletions.enabled": false,
+    "kiroAgent.configureMCP": "Disabled"
 }

@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  chatbot:
+    build: .
+    container_name: langchain-chatbot
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - DEFAULT_MODEL=${DEFAULT_MODEL:-gemini-2.0-flash-exp}
+      - TEMPERATURE=${TEMPERATURE:-0.7}
+      - VERBOSE=${VERBOSE:-True}
+    volumes:
+      - ./outputs:/app/outputs
+    stdin_open: true
+    tty: true
+    command: python main.py
+
+  api:
+    build: .
+    container_name: langchain-api
+    ports:
+      - "8000:8000"
+    environment:
+      - GOOGLE_API_KEY=${GOOGLE_API_KEY}
+      - DEFAULT_MODEL=${DEFAULT_MODEL:-gemini-2.0-flash-exp}
+      - TEMPERATURE=${TEMPERATURE:-0.7}
+    volumes:
+      - ./outputs:/app/outputs
+    command: uvicorn api:app --host 0.0.0.0 --port 8000
