@@ -1,6 +1,81 @@
-# LangChain AI Agent Template
+<div align="center">
 
-A production-ready LangChain chatbot template with tool integration, conversation memory, and extensible architecture.
+# 🤖 LangChain AI Agent
+
+### _Intelligent Conversational AI with Multi-Tool Integration_
+
+<img src="https://img.shields.io/badge/LANGCHAIN-AI_AGENT-00A67E?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAEjSURBVHjaYvz//z8DFQELAwMDw/9///4x/P//nwlZnImBgYGBkYGBgRGbJBMDAwPD////GRgZGRkY/v9nYGBkZGD4/58RXQMTuhcZ0b3IhM0bTNg0MqH7AZsmJnQvMjL+/8/A8P8/A8P//wyMjP8ZGBj/MzD+Z2Rg/P+fgfH/fwaG//8ZGf7/Z2T4j80pTOgaGf//Z2D8/5+B8f9/Bob//xkY/v9nZPj/n4nh/39mhv//WRj+/2dh+P+fheH/f1aG//9ZGf7/Z2X4/5+V4f9/Vob//9kY/v9nY/j/n43h/382hv//2Rn+/2dn+P+fneH/f3aG//85GP7/52D4/5+D4f9/Dob//zkZ/v/nZPj/n5Ph/39Ohv//uRj+/+di+P+fi+H/fy6G//+5Gf7/52b4/5+b4f9/bgYAoMKN+T8qxQAAAABJRU5ErkJggg==&labelColor=1C1C1C" alt="LangChain AI Agent" />
+
+[![Python](https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![LangChain](https://img.shields.io/badge/🦜_LangChain-Latest-00A67E?style=for-the-badge)](https://python.langchain.com/)
+[![Google Gemini](https://img.shields.io/badge/Google_Gemini-API-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Pydantic](https://img.shields.io/badge/Pydantic-V2-E92063?style=for-the-badge&logo=pydantic&logoColor=white)](https://docs.pydantic.dev/)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+
+---
+
+### 📚 Tech Stack & Documentation
+
+<table>
+<tr>
+<td align="center" width="140">
+<a href="https://python.langchain.com/docs/introduction/" target="_blank">
+<img src="https://img.shields.io/badge/LangChain-Core-00A67E?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain"/><br/>
+<sub><b>LangChain</b></sub>
+</a>
+</td>
+<td align="center" width="140">
+<a href="https://ai.google.dev/tutorials/python_quickstart" target="_blank">
+<img src="https://img.shields.io/badge/Gemini-API-4285F4?style=flat-square&logo=google&logoColor=white" alt="Google Gemini"/><br/>
+<sub><b>Google Gemini</b></sub>
+</a>
+</td>
+<td align="center" width="140">
+<a href="https://fastapi.tiangolo.com/" target="_blank">
+<img src="https://img.shields.io/badge/FastAPI-REST-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI"/><br/>
+<sub><b>FastAPI</b></sub>
+</a>
+</td>
+<td align="center" width="140">
+<a href="https://docs.pydantic.dev/latest/" target="_blank">
+<img src="https://img.shields.io/badge/Pydantic-V2-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic"/><br/>
+<sub><b>Pydantic</b></sub>
+</a>
+</td>
+</tr>
+<tr>
+<td align="center" width="140">
+<a href="https://en.wikipedia.org/wiki/Wikipedia:Copyrights" target="_blank">
+<img src="https://img.shields.io/badge/Wikipedia-API-000000?style=flat-square&logo=wikipedia&logoColor=white" alt="Wikipedia"/><br/>
+<sub><b>Wikipedia</b></sub>
+</a>
+</td>
+<td align="center" width="140">
+<a href="https://duckduckgo.com/" target="_blank">
+<img src="https://img.shields.io/badge/DuckDuckGo-Search-DE5833?style=flat-square&logo=duckduckgo&logoColor=white" alt="DuckDuckGo"/><br/>
+<sub><b>DuckDuckGo</b></sub>
+</a>
+</td>
+<td align="center" width="140">
+<a href="https://docs.docker.com/" target="_blank">
+<img src="https://img.shields.io/badge/Docker-Ready-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/><br/>
+<sub><b>Docker</b></sub>
+</a>
+</td>
+<td align="center" width="140">
+<a href="https://docs.pytest.org/" target="_blank">
+<img src="https://img.shields.io/badge/Pytest-Testing-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="Pytest"/><br/>
+<sub><b>Pytest</b></sub>
+</a>
+</td>
+</tr>
+</table>
+
+---
+
+</div>
 
 ## 🚀 Features
 
