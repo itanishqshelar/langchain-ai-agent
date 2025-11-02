@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 LangChain AI Agent
+#  LangChain AI Agent
 
 ### _Intelligent Conversational AI with Multi-Tool Integration_
 
@@ -16,7 +16,7 @@
 
 ---
 
-### 📚 Tech Stack & Documentation
+###  Tech Stack & Documentation
 
 <table>
 <tr>
@@ -77,7 +77,7 @@
 
 </div>
 
-## 🚀 Features
+## Features
 
 - **Multi-tool Integration**: Wikipedia search, web search, file saving, and time utilities
 - **Conversation Memory**: Maintains chat history for contextual responses
@@ -86,12 +86,12 @@
 - **Configuration Management**: Environment-based configuration
 - **Clean CLI Interface**: User-friendly command-line interface
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8+
 - Google API Key (for Gemini models) or OpenAI API Key
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
 
@@ -141,7 +141,7 @@
    OUTPUT_DIR=outputs
    ```
 
-## 🎯 Usage
+## Usage
 
 ### Basic Usage
 
@@ -176,7 +176,7 @@ You: What time is it?
 AI: [Returns current date and time]
 ```
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 langchain-ai-agent/
@@ -190,7 +190,7 @@ langchain-ai-agent/
 └── outputs/            # Generated output files (auto-created)
 ```
 
-## 🔧 Customization
+## Customization
 
 ### Adding New Tools
 
@@ -255,7 +255,7 @@ prompt = ChatPromptTemplate.from_messages([
 ])
 ```
 
-## 📚 Available Tools
+## Available Tools
 
 | Tool            | Description                               | Input Example                 |
 | --------------- | ----------------------------------------- | ----------------------------- |
@@ -264,7 +264,7 @@ prompt = ChatPromptTemplate.from_messages([
 | **SaveToFile**  | Save content to a text file               | "content to save"             |
 | **CurrentTime** | Get current date and time                 | (no input needed)             |
 
-## 🧪 Testing
+## Testing
 
 Run a quick test:
 
@@ -272,7 +272,7 @@ Run a quick test:
 python -c "from main import ChatBot; bot = ChatBot(); print(bot.chat('Hello!'))"
 ```
 
-## 🔒 Security Best Practices
+## Security Best Practices
 
 - **Never commit `.env`** files to version control
 - **Rotate API keys** regularly
@@ -280,7 +280,7 @@ python -c "from main import ChatBot; bot = ChatBot(); print(bot.chat('Hello!'))"
 - **Limit tool permissions** based on your use case
 - **Monitor API usage** to avoid unexpected costs
 
-## 📝 Configuration Options
+## Configuration Options
 
 Edit `.env` to customize:
 
@@ -310,7 +310,7 @@ Contributions are welcome! Please:
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🆘 Troubleshooting
+##  Troubleshooting
 
 ### "No API key found"
 
@@ -330,14 +330,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ### Import errors
 
 - Ensure all dependencies are up to date: `pip install --upgrade -r requirements.txt`
-
-## 🔗 Resources
-
-- [LangChain Documentation](https://python.langchain.com/)
-- [Google Gemini API](https://ai.google.dev/)
-- [OpenAI API](https://platform.openai.com/)
-
-## 📧 Support
+  
+## Support
 
 For issues and questions:
 
